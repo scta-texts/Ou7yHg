@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Incipit Quarta</title>
+        <author>Petrus Hispanus</author>
+        <editor>Alonso</editor>
+        <respStmt>
+          <name>Ana Ferreira</name>
+          <resp>TEI Encoding</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Incipit Quarta</title>
+          <date when="2019-07-02">July 2, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://petrushispanus.eu/project1">Project Petrus Hispanus Works</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="A" n="cod-i3uy34">Alonso 1957</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+
+      </div>
+    </front>
+    <body>
+      <div>
+        <head>Incipit Quarta</head>
+        <p>Quomodo dicis, Ihesus, qui est super omnia omnibus, est hominibus supersubstantialiter coordinatus. Non enim sicut causa hominum, hic dicitur homo, set sicut ipse secundum substantiam totam vere homo existens. Nos autem Ihesum non humane diffinimus, nec enim homo est tantum nec supersubstantialiter secundum quod homo tantum, set homo vere qui differenter est amator hominum super homines et secundum homines ex substantia hominum, qui est supersubstantialis substantia, factus. Est autem nichilominus supersubstantialitate superplenus, qui semper est supersubstantialis, videlicet huius-
+        modi habundantia, et ad substantiam vere veniens, super substantiam est substantia factus, et super hominem operatur ea que sunt hominis, et monstrat virgo supernaturaliter concipiens, et aqua instabilis, materialium et terrenorum pedum sistinens gravitatem, et non succedens, set supernaturali virtute ad indiffusum consistens. Quod quidem aliquis reliqua multa existentia pertranseat per que divinius videns super mentem cognoscit et ea que sunt in benignitate Ihesu affirmata, virtutem excedentis negationis sunt habentia. Etenim ut colligentes dicamus, nec homo erat, nec sicut non homo, set sicut ex hominibus ultra homines et supra homines vere homo factus. Et reliquum non secundum Deum divina faciens non humana secundum hominem set Deo homine facto nova quadam Dei et hominis operatione nobiscum conversatus.</p>
+      
+      </div>
+    </body>
+  </text>
+</TEI>

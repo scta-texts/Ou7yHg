@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quinta eiusdem ad Dorotheum ministrum</title>
+        <author>Petrus Hispanus</author>
+        <editor>Alonso</editor>
+        <respStmt>
+          <name>Ana Ferreira</name>
+          <resp>TEI Encoding</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quinta eiusdem ad Dorotheum ministrum</title>
+          <date when="2019-07-02">July 2, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://petrushispanus.eu/project1">Project Petrus Hispanus Works</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="A" n="cod-i3uy34">Alonso 1957</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+
+      </div>
+    </front>
+    <body>
+      <div xml:id=>
+        <head>Quinta eiusdem ad Dorotheum ministrum</head>
+        <p>Divina caligo est inaccessibile lumen, in qua habitare Deus dicitur. Et invisibilis existens propter excedentem claritatem, et inaccesibilis idem dicitur, propter excessum supersubstantialis luminis effusionis. In hac fit omnis, qui Deum cognoscere et videre dignus est habitus, per ipsum non videre neque cognoscere vere in eo qui est super visionem et cognitionem, factus. Hoc enim ipsum cognoscens quod post omnia est sensibilia et intelligibilia et prophetice dicens: Mirabilis facta est scientia tua ex me, fortis facta est, non potero ad eam. Sicut quidem et divinus Paulus cognovisse dicitur Deum, cognoscens ipsum super omnem existentem intellectum et cognitionem. Propter quod non investigabiles vias eius dicit esse et inscrutabilia iudicia eius et inenarrabilia dona eius et pacem ipsius
+        excedentem omnem mentem sicut qui invenit existentem super omnia. Et hunc super intellectum cognovit, quoniam ultra omnia est omnium causa existens.</p>
+            </div>
+    </body>
+  </text>
+</TEI>
